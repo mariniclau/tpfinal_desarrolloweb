@@ -1,0 +1,101 @@
+.header{
+    @extend .navbar;
+    background-image: linear-gradient(to bottom, $mainColor, $secondaryColor); 
+}
+
+.footer{
+    @extend .navbar;
+    background-image: linear-gradient(to top, $mainColor, $secondaryColor); 
+}
+
+main{
+    h1{
+       text-decoration: underline;
+       width: 100vw;
+    }
+}
+
+.amigorDef{
+    h1{
+    margin-top: 20px;
+    }   
+}
+
+.card{
+    h3{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+    p{
+    min-height: 30px;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+}
+
+#amigurumis{
+    .btn{
+        @include btn-gral($keyColor,$mainColor);
+        &:hover{
+            color:white;
+        }
+    }
+    p{
+        font-size: $textSm;
+    }
+}
+
+#agujas{
+    .btn{
+        @include btn-gral($keyColor,$mainColor);
+        &:hover{
+            color:white;
+        }
+    }
+    p{
+        font-size: $textSm;
+    }
+}
+
+#accesorios{
+    .btn{
+        @include btn-gral($keyColor,$mainColor);
+        &:hover{
+            color:white;
+        }
+    }
+    p{
+        font-size: $textSm;
+    }
+}
+
+#patrones{
+    .btn{
+        @include btn-gral($keyColor,$mainColor);
+        &:hover{
+            color:white;
+        }
+    }
+    p{
+        font-size: $textSm;
+    }
+}
+
+.contacto{
+    .btn{
+        @include btn-gral($mainColor,$keyColor);
+        &:hover{
+            color:white;
+        }
+    }
+    p{
+        font-size: $textSm;
+    }
+}
+    
+
+

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;300&display=swap");
+@media (min-width: 1024px) {
+  .breakpoint, .contacto p, .patronesDef p, .accesDef p, .amigorDef p, .intro p {
+    font-size: 1.7em;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link, .footer .navbar-nav .nav-item .nav-link, .header .navbar-nav .nav-item .nav-link {
+  color: #844C9C;
+  font-size: 1.5em;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover, .footer .navbar-nav .nav-item .nav-link:hover, .header .navbar-nav .nav-item .nav-link:hover {
+  color: white;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #FB9B1C, #f8c37d);
+}
+
+.footer {
+  background-image: linear-gradient(to top, #FB9B1C, #f8c37d);
+}
+
+main h1 {
+  text-decoration: underline;
+  width: 100vw;
+}
+
+.amigorDef h1 {
+  margin-top: 20px;
+}
+
+.card h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card p {
+  min-height: 30px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#amigurumis .btn {
+  background-color: #844C9C;
+  color: #FB9B1C;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-color: #FB9B1C;
+}
+#amigurumis .btn:hover {
+  color: white;
+}
+#amigurumis p {
+  font-size: 1.3em;
+}
+
+#agujas .btn {
+  background-color: #844C9C;
+  color: #FB9B1C;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-color: #FB9B1C;
+}
+#agujas .btn:hover {
+  color: white;
+}
+#agujas p {
+  font-size: 1.3em;
+}
+
+#accesorios .btn {
+  background-color: #844C9C;
+  color: #FB9B1C;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-color: #FB9B1C;
+}
+#accesorios .btn:hover {
+  color: white;
+}
+#accesorios p {
+  font-size: 1.3em;
+}
+
+#patrones .btn {
+  background-color: #844C9C;
+  color: #FB9B1C;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-color: #FB9B1C;
+}
+#patrones .btn:hover {
+  color: white;
+}
+#patrones p {
+  font-size: 1.3em;
+}
+
+.contacto .btn {
+  background-color: #FB9B1C;
+  color: #844C9C;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-color: #844C9C;
+}
+.contacto .btn:hover {
+  color: white;
+}
+.contacto p {
+  font-size: 1.3em;
+}
+
+/*# sourceMappingURL=main.css.map */

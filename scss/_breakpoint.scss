@@ -1,0 +1,31 @@
+.breakpoint{
+    @media (min-width:1024px){
+        font-size: $textL;
+    }
+}
+
+.intro{
+    p{
+        @extend .breakpoint;
+    }
+}
+.amigorDef{
+    p{
+        @extend .breakpoint;
+    }    
+}
+.accesDef{
+    p{
+        @extend .breakpoint;
+    } 
+}
+.patronesDef{
+    p{
+        @extend .breakpoint;
+    } 
+}
+.contacto{
+    p{
+        @extend .breakpoint;
+    }
+}

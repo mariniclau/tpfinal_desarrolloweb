@@ -1,0 +1,24 @@
+//extend
+.navbar{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: $keyColor; 
+                font-size: $textMd;
+                &:hover{
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+//mixins
+@mixin btn-gral($bgColor,$color){
+    background-color: $bgColor;
+    color: $color;
+    font-size: 1.3em;
+    font-weight: 600;
+    border-color: $color;   
+}
+
