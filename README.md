@@ -1,6 +1,6 @@
 <h1 align="center"> TITULO DE PROYECTO: WEB PARA VENTA DE MUÑECOS TEJIDOS EN CROCHET - TENTATE CON MI ARTE </h1>
 
-<u> Descripción: </u> 
+<h2> Descripción: </h2>
 
 El proyecyo fue construido por medio de HTML, CSS, SASS y BOOTSTRAP. 
 
