@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@100;300&display=swap");
 @media (min-width: 1024px) {
-  .breakpoint, .contacto p, .patronesDef p, .accesDef p, .amigorDef p, .intro p {
+  .breakpoint, .errorDef p, .contacto p, .patronesDef p, .accesDef p, .amigorDef p, .intro p {
     font-size: 1.7em;
   }
 }
@@ -111,6 +111,14 @@ main h1 {
   color: white;
 }
 .contacto p {
+  font-size: 1.3em;
+}
+
+#error {
+  background-color: #f8c37d;
+}
+
+.errorDef p {
   font-size: 1.3em;
 }
 

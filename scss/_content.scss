@@ -96,6 +96,16 @@ main{
         font-size: $textSm;
     }
 }
+
+#error{
+    background-color: $secondaryColor;
+}
+
+.errorDef{
+    p{
+    font-size: $textSm;
+    }
+    }
     
 
 
